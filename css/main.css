@@ -103,11 +103,46 @@ textarea {
 
 
 
+body {
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+  transition: background-color 0.5s ease;
+  background-color: #00456d;
+}
+
+body:hover {
+  background-color: #8f883a;
+}
 
 
 
+.weather {
+	width: 40%;
+	padding-top: 180px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.weather-title{
+	
+}
+
+.temperature{
+	font-weight: bold;
+	font-size: 4em;
+	line-height: 0em;
+}
 
 
+.current{
+	
+}
+
+
+
+i {
+	font-size: 14em;
+}
 
 
 
