@@ -30,7 +30,16 @@ $(document).ready(function(){
 	
 	var time = hour + ':' + minutes;
 	
-	alert(time);
+
+	
+	//if time is less than 20 h, show light 
+	
+	if ( hour < 20 ){
+		$('body').css('background', '#8bd3ff');
+	} else {
+		$('body').css('background', '#00456d');
+	}
+	
 	
 	
 });
