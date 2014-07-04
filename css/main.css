@@ -107,11 +107,11 @@ body {
 	font-family: 'Lato', sans-serif;
 	color: #fff;
   transition: background-color 0.5s ease;
-  background-color: #00456d;
+  background-color: #8bd3ff;
 }
 
 body:hover {
-  background-color: #8f883a;
+  background-color: #00456d;
 }
 
 
